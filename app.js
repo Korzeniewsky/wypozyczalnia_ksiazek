@@ -43,7 +43,7 @@ async function dodaj(id, x, y) {
 	return res[0];
 }
 
-app.use(express.static("/strona"));
+app.use(express.static("./strona"));
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
